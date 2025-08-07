@@ -43,7 +43,7 @@ export function Hero() {
 
       <div className="flex flex-wrap gap-4 justify-center mb-10">
         <a
-          href="https://discord.com/oauth2/authorize?&client_id=865690661188927549&scope=applications.commands+bot&permissions=277134358592"
+          href="https://777143.xyz/invite"
           className="relative overflow-hidden group px-8 py-4 bg-gradient-to-r from-blue-500/10 to-purple-500/10 rounded-xl border border-white/10 hover:shadow-[0_0_2rem_-0.5rem_#3b82f6] transition-all duration-300 text-white font-semibold text-lg flex items-center gap-3 backdrop-blur-xl"
         >
           <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-purple-500/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300" />

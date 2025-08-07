@@ -46,23 +46,23 @@ export const siteConfig: SiteConfig = {
   totalUsers: 81, // 11 = 11k to remove the k, go in components/home/hero.tsx and remove/change the K at line 72
   botAvatarUrl: "https://images-ext-1.discordapp.net/external/C31ygKiQUn_pw3qnVACuR67YzVZYCAiHiO6TqGkH0qQ/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/865690661188927549/cc5831c9fd1af239e0117062624f87aa.webp?format=webp&width=960&height=960",
   
-  supportServer: "https://discord.gg/8KFPsZV58z",
+  supportServer: "https://777143.xyz/discord",
   
   socialLinks: [
     {
       platform: "Discord", //don't change
-      url: "https://discord.gg/8KFPsZV58z",
+      url: "https://777143.xyz/discord",
     }
   ],
   
   footerLinks: {
     contact: [
-      { label: "Discord Server", url: "https://discord.gg/8KFPsZV58z" }, // u can change this
+      { label: "Discord Server", url: "https://777143.xyz/discord" }, // u can change this
     ],
     resources: [
       // { label: "Documentation", url: "https://docs.domain.com" },
       // { label: "Blog", url: "domain.com" },
-      { label: "Support", url: "https://discord.gg/8KFPsZV58z" }
+      { label: "Support", url: "https://777143.xyz/discord" }
     ],
     legal: [
       { label: "Privacy Policy", url: "/privacy" },
@@ -73,7 +73,7 @@ export const siteConfig: SiteConfig = {
   
   siteName: "Everything", //footer
   siteDescription: "A powerful Discord bot that brings advanced features and seamless automation to your server.", //footer
-  siteUrl: "https://domain.com",
+  siteUrl: "https://777143.xyz",
 
   features: {
     enableCommands: true,
