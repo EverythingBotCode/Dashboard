@@ -16,7 +16,7 @@ const getChangeIcon = (type: UpdateChange['type']) => {
   }
 };
 
-export default function Updates() {
+export function Updates() {
   return (
     <section id="updates" className="w-full py-32">
       <div className="max-w-[1800px] mx-auto px-4">

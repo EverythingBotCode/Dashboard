@@ -7,7 +7,6 @@ import Premium from './pages/Premium.tsx';
 import TermsOfService from './pages/TermsOfService.tsx';
 import PrivacyPolicy from './pages/PrivacyPolicy.tsx';
 import NotFound from './pages/NotFound.tsx';
-import Updates from './components/home/Updates.tsx';
 import './index.css';
 
 function ErrorBoundary({ error }: { error: Error }) {
@@ -57,10 +56,6 @@ const router = createBrowserRouter([
   {
     path: "*",
     element: <NotFound />
-  },
-  {
-    path: "/updates",
-    element: <Updates />
   }
 ]);
 
