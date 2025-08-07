@@ -6,7 +6,7 @@
       "permanent": true
     },
     {
-      "source": "invite",
+      "source": "/invite",
       "destination": "https://discord.com/oauth2/authorize?&client_id=865690661188927549&scope=applications.commands+bot&permissions=277134358592",
       "permanent": true
     }
