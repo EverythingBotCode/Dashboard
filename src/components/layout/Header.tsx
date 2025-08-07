@@ -60,7 +60,7 @@ export function Header() {
               </button>
               {siteConfig.features.enableDashboard && (
                 <a 
-                  href="#" 
+                  href="" 
                   className="relative overflow-hidden group px-4 py-2 bg-gradient-to-r from-blue-500/10 to-purple-500/10 rounded-xl hover:shadow-[0_0_2rem_-0.5rem_#3b82f6] transition-all duration-300 border border-white/10 font-medium text-white"
                 >
                   <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-purple-500/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
@@ -94,9 +94,9 @@ export function Header() {
                     Commands
                   </Link>
                 )}
-                <Link to="/premium" className="text-gray-400 hover:text-white transition-colors font-medium px-2 py-1 rounded-md hover:bg-white/10">
+                {/* <Link to="/premium" className="text-gray-400 hover:text-white transition-colors font-medium px-2 py-1 rounded-md hover:bg-white/10">
                   Premium
-                </Link>
+                </Link> */}
                 <button 
                   onClick={() => handleNavClick('stats')} 
                   className="text-left text-gray-400 hover:text-white transition-colors font-medium px-2 py-1 rounded-md hover:bg-white/10"
