@@ -1,7 +1,12 @@
 {
   "redirects": [
     {
-      "source": "/",
+      "source": "/discord",
+      "destination": "https://discord.gg/8KFPsZV58z",
+      "permanent": true
+    },
+    {
+      "source": "discord.777143.xyz",
       "destination": "https://discord.gg/8KFPsZV58z",
       "permanent": true
     }
