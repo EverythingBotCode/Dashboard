@@ -21,7 +21,7 @@ export function Stats({ stats }: StatsProps) {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {/* <StatCard
+          <StatCard
             icon={Users}
             value={stats?.totalUsers}
             label="Active Users"
@@ -80,8 +80,10 @@ export function Stats({ stats }: StatsProps) {
             suffix="%"
             gradient="from-yellow-500 to-lime-500"
             delay={0.7}
-          /> */}
-          <StatCard
+          />
+
+
+          {/* <StatCard
             icon={Users}
             value={81000}
             label="Active Users"
@@ -129,7 +131,7 @@ export function Stats({ stats }: StatsProps) {
             icon={Bot}
             value={0}
             label="Node Version"
-            formatter={() => stats?.nodeVersion || 'v18.20.5'}
+            formatter={() => stats?.nodeVersion || 'v20.19.4'}
             gradient="from-amber-500 to-yellow-500"
             delay={0.6}
           />
@@ -140,7 +142,7 @@ export function Stats({ stats }: StatsProps) {
             suffix="%"
             gradient="from-yellow-500 to-lime-500"
             delay={0.7}
-          />
+          /> */}
         </div>
       </div>
     </section>

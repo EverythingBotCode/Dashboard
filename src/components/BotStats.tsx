@@ -7,13 +7,13 @@ import { formatUptime } from '../utils/time';
 
 export function BotStats() {
   const [stats, setStats] = useState<BotInfo>({ 
-    totalUsers: 15000, 
-    totalServers: 500, 
+    totalUsers: 81000, 
+    totalServers: 300, 
     ping: 0, 
-    command: 0, 
-    channels: 0,
-    nodeVersion: 'v18.20.5',
-    uptime: 0
+    command: 5000, 
+    channels: 9000,
+    nodeVersion: 'v20.19.4',
+    uptime: 20
   });
   const [error, setError] = useState(false);
   const [loading, setLoading] = useState(true);

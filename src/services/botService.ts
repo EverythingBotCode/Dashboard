@@ -3,12 +3,12 @@ import { API_CONFIG } from '../config/api';
 import { fetchWithTimeout } from '../utils/api';
 
 const DEFAULT_BOT_INFO: BotInfo = {
-  totalUsers: 15000,
-  totalServers: 500,
-  ping: 0,
-  command: 0,
-  channels: 0,
-  nodeVersion: 'v18.20.5',
+  totalUsers: 81000,
+  totalServers: 300,
+  ping: 26,
+  command: 5000,
+  channels: 9000,
+  nodeVersion: 'v20.19.4',
   uptime: 0
 };
 
