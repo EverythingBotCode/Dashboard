@@ -41,7 +41,7 @@ export interface SiteConfig {
 export const siteConfig: SiteConfig = {
   botName: "Everything Bot", //hero
   botDescription: "A powerful Discord bot that brings advanced features and seamless automation to your server.",
-  botVersion: "1.0.4",
+  botVersion: "10.0.0",
   totalServers: 300,
   totalUsers: 81, // 11 = 11k to remove the k, go in components/home/hero.tsx and remove/change the K at line 72
   botAvatarUrl: "https://images-ext-1.discordapp.net/external/C31ygKiQUn_pw3qnVACuR67YzVZYCAiHiO6TqGkH0qQ/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/865690661188927549/cc5831c9fd1af239e0117062624f87aa.webp?format=webp&width=960&height=960",
