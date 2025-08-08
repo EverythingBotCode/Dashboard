@@ -77,7 +77,7 @@ export const siteConfig: SiteConfig = {
 
   features: {
     enableCommands: true,
-    enableDashboard: true
+    enableDashboard: false
   }
 };
 
