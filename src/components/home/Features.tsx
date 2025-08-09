@@ -83,7 +83,7 @@ export function Features() {
             Powerful Features
           </h2>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-            EverythingBot combines moderation, economy, entertainment, and integrations in one multipurpose Discord assistant.
+            Everything Bot combines moderation, economy, entertainment, and integrations in one multipurpose Discord assistant.
           </p>
         </div>
 

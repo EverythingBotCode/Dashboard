@@ -71,7 +71,7 @@ export const siteConfig: SiteConfig = {
   },
   
   
-  siteName: "Everything", //footer
+  siteName: "Everything Bot", //footer
   siteDescription: "A powerful Discord bot that brings advanced features and seamless automation to your server.", //footer
   siteUrl: "https://777143.xyz",
 

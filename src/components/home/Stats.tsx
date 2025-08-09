@@ -16,7 +16,7 @@ export function Stats({ stats }: StatsProps) {
             Real-time Statistics
           </h2>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-            Monitor Everything's performance and impact across Discord
+            Monitor Everything Bot's performance and impact across Discord
           </p>
         </div>
 
